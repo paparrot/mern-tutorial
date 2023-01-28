@@ -6,7 +6,7 @@ on [Traversy media video course](https://www.youtube.com/watch?v=-0exw-9YJBo&ab_
 ## Roadmap
 
 - [x] Backend CRUD
-- [ ] Backend Authentication
+- [x] Backend Authentication
 - [ ] Frontend authentication
 - [ ] Frontend CRUD
 - [ ] Deploy project
