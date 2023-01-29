@@ -82,13 +82,7 @@ const loginUser = asyncHandler(async (req, res) => {
 // @route GET /api/v1/users/me
 // @access Private
 const getUserData = asyncHandler(async (req, res) => {
-    const {_id, name, email} = await User.findById(req.user.id);
-
-    res.status(200).json({
-        id: _id,
-        name,
-        email
-    })
+    res.status(200).json(req.user);
 });
 
 // @desc Generate token
