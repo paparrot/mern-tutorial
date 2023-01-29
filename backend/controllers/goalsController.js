@@ -69,7 +69,7 @@ const deleteGoal = asyncHandler(async (req, res) => {
     await Goal.findByIdAndDelete(id)
 
     res.status(200).send({
-        message: "Successfully deleted"
+        _id: id
     })
 })
 
