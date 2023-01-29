@@ -1,0 +1,24 @@
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 2rem;
+}
+
+.header > ul {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+}
+
+.header a {
+    color: inherit;
+    text-decoration: none;
+}
