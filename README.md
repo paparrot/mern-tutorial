@@ -7,6 +7,6 @@ on [Traversy media video course](https://www.youtube.com/watch?v=-0exw-9YJBo&ab_
 
 - [x] Backend CRUD
 - [x] Backend Authentication
-- [ ] Frontend authentication
+- [x] Frontend authentication
 - [ ] Frontend CRUD
 - [ ] Deploy project
